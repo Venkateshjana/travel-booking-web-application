@@ -1,0 +1,126 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f9ff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #0077b6;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #caf0f8;
+}
+
+/* Search Section */
+.search-section {
+  background: #caf0f8;
+  padding: 30px;
+  text-align: center;
+}
+
+.search-section h2 {
+  margin-bottom: 15px;
+}
+
+.search-section input,
+.search-section button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.search-section input {
+  width: 180px;
+}
+
+.search-section button {
+  background: #0077b6;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.search-section button:hover {
+  background: #023e8a;
+}
+
+/* Destination Cards */
+.destinations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin: 15px;
+  width: 250px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 10px 0;
+  color: #0077b6;
+}
+
+.card p {
+  padding: 0 10px 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
